@@ -2,14 +2,14 @@
 # /// script
 # requires-python = ">=3.12"
 # dependencies = [
-#     "beem",
+#     "hive-nectar",
 #     "hiveengine",
 #     "prettytable",
 # ]
 # ///
 
 
-from beem import Hive
+from nectar import Hive
 from hiveengine.api import Api
 from hiveengine.wallet import Wallet as heWallet
 from prettytable import PrettyTable

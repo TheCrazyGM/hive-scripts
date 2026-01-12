@@ -2,15 +2,15 @@
 # /// script
 # requires-python = ">=3.12"
 # dependencies = [
-#     "beem",
+#     "hive-nectar",
 #     "python-dotenv",
 # ]
 # ///
 
 
-from beem import Hive
-from beem.account import Account
-from beem.comment import Comment
+from nectar import Hive
+from nectar.account import Account
+from nectar.comment import Comment
 
 hive = Hive(nodes="https://anyx.io")
 

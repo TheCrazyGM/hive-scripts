@@ -2,7 +2,7 @@
 # /// script
 # requires-python = ">=3.12"
 # dependencies = [
-#     "beem",
+#     "hive-nectar",
 #     "python-dotenv",
 # ]
 # ///
@@ -11,12 +11,12 @@
 import os
 import re
 
-from beem import Hive
-from beem.account import Account
-from beem.blockchain import Blockchain
-from beem.comment import Comment
-from beem.instance import set_shared_blockchain_instance
-from beem.utils import construct_authorperm
+from nectar import Hive
+from nectar.account import Account
+from nectar.blockchain import Blockchain
+from nectar.comment import Comment
+from nectar.instance import set_shared_blockchain_instance
+from nectar.utils import construct_authorperm
 
 posting_key = os.environ["POSTING_WIF"]
 REGEX = "(?<=^|(?<=[^a-zA-Z0-9-_\.]))@([A-Za-z]+[A-Za-z0-9]+)"

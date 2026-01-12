@@ -2,7 +2,7 @@
 # /// script
 # requires-python = ">=3.12"
 # dependencies = [
-#     "beem",
+#     "hive-nectar",
 #     "hiveengine",
 #     "python-dotenv",
 # ]
@@ -11,8 +11,8 @@
 import os
 import time
 
-from beem import Hive
-from beem.wallet import Wallet
+from nectar import Hive
+from nectar.wallet import Wallet
 from dotenv import load_dotenv
 
 # from hiveengine.tokens import Tokens

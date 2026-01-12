@@ -2,7 +2,7 @@
 # /// script
 # requires-python = ">=3.12"
 # dependencies = [
-#     "beem",
+#     "hive-nectar",
 #     "python-dotenv",
 # ]
 # ///
@@ -10,11 +10,11 @@
 import os
 from typing import Optional, Tuple
 
-from beem import Hive
-from beem.account import Account
-from beem.constants import resource_execution_time
-from beem.rc import RC
-from beem.wallet import Wallet
+from nectar import Hive
+from nectar.account import Account
+from nectar.constants import resource_execution_time
+from nectar.rc import RC
+from nectar.wallet import Wallet
 from dotenv import load_dotenv
 
 

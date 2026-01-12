@@ -2,14 +2,14 @@
 # /// script
 # requires-python = ">=3.12"
 # dependencies = [
-#     "beem",
+#     "hive-nectar",
 #     "tabulate",
 # ]
 # ///
 
 from getpass import getpass
 
-from beemgraphenebase.account import PasswordKey
+from nectargraphenebase.account import PasswordKey
 from tabulate import tabulate
 
 hive_id = input("Hive User ID: ")

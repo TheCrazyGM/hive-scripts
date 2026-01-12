@@ -2,7 +2,7 @@
 # /// script
 # requires-python = ">=3.12"
 # dependencies = [
-#     "beem",
+#     "hive-nectar",
 #     "dataset",
 #     "python-dotenv",
 # ]
@@ -10,8 +10,8 @@
 
 
 import dataset
-from beem import Hive
-from beem.blockchain import Blockchain
+from nectar import Hive
+from nectar.blockchain import Blockchain
 
 # Ask for user ID
 hive_id = input("Hive User ID: ")
