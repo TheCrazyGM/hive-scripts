@@ -1,3 +1,4 @@
+#!/usr/bin/env -S uv run --quiet --script
 # /// script
 # dependencies = [
 #     "httpx",
@@ -8,6 +9,7 @@
 import argparse
 import csv
 import datetime
+
 import httpx
 from rich.console import Console
 
